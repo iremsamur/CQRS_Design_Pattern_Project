@@ -10,7 +10,8 @@ namespace UpSchool_CQRS_DesignPatterns.CQRS.Handlers.ProductHandlers
     public class GetProductByAccounterQueryHandler
     {
         //handler sınıfında işlemler yazılacak
-        private readonly ProductContext _productContext;
+        private readonly ProductContext _productContext; //context sınıfı dependency 
+        //injection ile tanımlanır.
 
         public GetProductByAccounterQueryHandler(ProductContext productContext)
         {
@@ -33,6 +34,9 @@ namespace UpSchool_CQRS_DesignPatterns.CQRS.Handlers.ProductHandlers
                 PurchasePrice = x.PurchasePrice
 
             }).AsNoTracking().ToList(); //AsTracking performansu arttırmayı sağlayan method
+            //AsNoTracking takip etmeyerek sorgunun performansını arttırır.
+            //Takip sadece değişiklik yapılan update gibi işlemlerde gerekir.
+            //Onlarda olur. Listelemede takipe gerek yok, takip yapmayarak böylece performansı artttıran asnotracking'dir.
             return values;
         }
 

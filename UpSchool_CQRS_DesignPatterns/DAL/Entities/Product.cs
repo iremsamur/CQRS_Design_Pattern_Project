@@ -13,6 +13,7 @@ namespace UpSchool_CQRS_DesignPatterns.DAL.Entities
         public decimal SalePrice { get; set; }
         public decimal Cost { get; set; }
         public string Supplier { get; set; }
+        public string Storage { get; set; }
         public DateTime ProduceOfDate { get; set; }
         public DateTime EndOfDate { get; set; }
         public bool Status{ get; set; }

@@ -1,0 +1,28 @@
+﻿@model GetProductAccounterByIDQueryResult
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<div class="container">
+    <h2>Muhasebe Ürün Detay Paneli</h2>
+    <br />
+    <label>Ürün ID</label>
+    <input type="text" asp-for="ProductID" class="form-control" />
+    <br />
+    <label>Ürün Adı</label>
+    <input type="text" asp-for="Name" class="form-control" />
+    <br />
+    <label>Ürün Markası</label>
+    <input type="text" asp-for="Brand" class="form-control" />
+    <br />
+  
+    <label>Ürün Fiyatı</label>
+    <input type="text" asp-for="SalePrice" class="form-control" />
+    <br />
+
+    <label>Açıklama</label>
+    <input type="text" asp-for="Description" class="form-control" />
+
+
+</div>

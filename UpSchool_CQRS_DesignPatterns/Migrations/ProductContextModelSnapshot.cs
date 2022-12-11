@@ -62,6 +62,9 @@ namespace UpSchool_CQRS_DesignPatterns.Migrations
                     b.Property<int>("Stock")
                         .HasColumnType("int");
 
+                    b.Property<string>("Storage")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Supplier")
                         .HasColumnType("nvarchar(max)");
 

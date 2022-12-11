@@ -29,6 +29,9 @@ namespace UpSchool_CQRS_DesignPatterns
             services.AddDbContext<ProductContext>();
             services.AddScoped<GetProductByAccounterQueryHandler>();//iþlemleri yazdýðým Handler sýnýfýný ekliyorum. Çünkü
             //dependency injection uyguluyorum
+            services.AddScoped<GetProductStoragerQueryHandler>();
+            services.AddScoped<GetProductHumanResourcesByIDQueryHandler>();
+            services.AddScoped<GetProductAccounterByIDQueryHandler>();
 
             services.AddControllersWithViews();
         }
