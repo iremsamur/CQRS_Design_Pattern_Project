@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using UpSchool_CQRS_DesignPatterns.CQRS.Handlers.ProductHandlers;
+using UpSchool_CQRS_DesignPatterns.CQRS.Handlers.StudentHandlers;
 using UpSchool_CQRS_DesignPatterns.DAL.Context;
 
 namespace UpSchool_CQRS_DesignPatterns
@@ -32,7 +33,11 @@ namespace UpSchool_CQRS_DesignPatterns
             services.AddScoped<GetProductStoragerQueryHandler>();
             services.AddScoped<GetProductHumanResourcesByIDQueryHandler>();
             services.AddScoped<GetProductAccounterByIDQueryHandler>();
-
+            services.AddScoped<CreateStudentCommandHandler>();
+            services.AddScoped<GetAllStudentQueryHandler>();
+            services.AddScoped<RemoveStudentCommandHandler>();
+            services.AddScoped<GetStudentByIDQueryHandler>();
+            services.AddScoped<UpdateStudentCommandHandler>();
             services.AddControllersWithViews();
         }
 

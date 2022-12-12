@@ -146,3 +146,11 @@ C:\Users\User\Desktop\UpSchoolBootcamp\UpSchool_CQRS_DesignPatterns\UpSchool_CQR
 C:\Users\User\Desktop\UpSchoolBootcamp\UpSchool_CQRS_DesignPatterns\UpSchool_CQRS_DesignPatterns\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
 C:\Users\User\Desktop\UpSchoolBootcamp\UpSchool_CQRS_DesignPatterns\UpSchool_CQRS_DesignPatterns\obj\Debug\net5.0\Razor\Views\Product\StoragerIndex.cshtml.g.cs
 C:\Users\User\Desktop\UpSchoolBootcamp\UpSchool_CQRS_DesignPatterns\UpSchool_CQRS_DesignPatterns\obj\Debug\net5.0\Razor\Views\Product\GetHumanResourcesIndex.cshtml.g.cs
+C:\Users\User\Desktop\UpSchoolBootcamp\UpSchool_CQRS_DesignPatterns\UpSchool_CQRS_DesignPatterns\obj\Debug\net5.0\Razor\Views\Product\GetAccounterIndexByID.cshtml.g.cs
+C:\Users\User\Desktop\UpSchoolBootcamp\UpSchool_CQRS_DesignPatterns\UpSchool_CQRS_DesignPatterns\obj\Debug\net5.0\Razor\Views\Student\AddStudent.cshtml.g.cs
+C:\Users\User\Desktop\UpSchoolBootcamp\UpSchool_CQRS_DesignPatterns\UpSchool_CQRS_DesignPatterns\obj\Debug\net5.0\Razor\Views\Student\GetAllStudents.cshtml.g.cs
+C:\Users\User\Desktop\UpSchoolBootcamp\UpSchool_CQRS_DesignPatterns\UpSchool_CQRS_DesignPatterns\obj\Debug\net5.0\Razor\Views\Student\UpdateStudent.cshtml.g.cs
+C:\Users\User\Desktop\UpSchoolBootcamp\UpSchool_CQRS_DesignPatterns\UpSchool_CQRS_DesignPatterns\bin\Debug\net5.0\MediatR.dll
+C:\Users\User\Desktop\UpSchoolBootcamp\UpSchool_CQRS_DesignPatterns\UpSchool_CQRS_DesignPatterns\bin\Debug\net5.0\MediatR.Contracts.dll
+C:\Users\User\Desktop\UpSchoolBootcamp\UpSchool_CQRS_DesignPatterns\UpSchool_CQRS_DesignPatterns\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\User\Desktop\UpSchoolBootcamp\UpSchool_CQRS_DesignPatterns\UpSchool_CQRS_DesignPatterns\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
