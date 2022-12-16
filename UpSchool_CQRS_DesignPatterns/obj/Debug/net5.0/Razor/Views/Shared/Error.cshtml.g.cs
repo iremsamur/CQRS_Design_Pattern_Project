@@ -47,8 +47,22 @@ using UpSchool_CQRS_DesignPatterns.CQRS.Results.StudentResults;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 6 "C:\Users\User\Desktop\UpSchoolBootcamp\UpSchool_CQRS_DesignPatterns\UpSchool_CQRS_DesignPatterns\Views\_ViewImports.cshtml"
+using UpSchool_CQRS_DesignPatterns.CQRS.Results.UniversityResults;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 7 "C:\Users\User\Desktop\UpSchoolBootcamp\UpSchool_CQRS_DesignPatterns\UpSchool_CQRS_DesignPatterns\Views\_ViewImports.cshtml"
+using UpSchool_CQRS_DesignPatterns.CQRS.Commands.UniversityCommands;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d6a5625cc8fb4476f348b0fe9041c550465d8bf9", @"/Views/Shared/Error.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cc055e92e770a9377f334b8f520372c1018ab382", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cae134667d2d88bb8ff7cfe4d1853686e2b086a5", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared_Error : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ErrorViewModel>
     #nullable disable

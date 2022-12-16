@@ -111,6 +111,36 @@ namespace UpSchool_CQRS_DesignPatterns.Migrations
 
                     b.ToTable("Students");
                 });
+
+            modelBuilder.Entity("UpSchool_CQRS_DesignPatterns.DAL.Entities.University", b =>
+                {
+                    b.Property<int>("UniversityID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Country")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DepartmentCount")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FacultyCount")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Population")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("UniversityID");
+
+                    b.ToTable("Universities");
+                });
 #pragma warning restore 612, 618
         }
     }

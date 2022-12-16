@@ -1,0 +1,32 @@
+﻿@model List<GetAllUniversityQueryResult>
+@{
+    Layout = null;
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<div class="container">
+    <br>
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Üniversite</th>
+            <th>Şehir</th>
+            <th>Sil</th>
+            <th>Güncelle</th>
+        </tr>
+         @foreach(var item in Model){
+            <tr>
+                <td>@item.UniversityID</td>
+                <td>@item.Name</td>
+                <td>@item.Town</td>
+                <td><a href="/University/DeleteUniversity/@item.UniversityID" class="btn btn-outline-danger">Sil</a></td>
+                <td><a href="/University/UpdateUniversity/@item.UniversityID" class="btn btn-outline-success">Güncelle</a></td>
+            </tr>
+
+         }
+   
+    </table>
+    <a href="/University/AddUniversity" class="btn btn-outline-primary">Yeni Üniversite Girişi</a>
+
+</div>
+
+

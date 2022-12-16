@@ -1,3 +1,4 @@
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,10 +27,15 @@ namespace UpSchool_CQRS_DesignPatterns
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            
             //CQRS için konfigürasyonlar
             services.AddDbContext<ProductContext>();
             services.AddScoped<GetProductByAccounterQueryHandler>();//iþlemleri yazdýðým Handler sýnýfýný ekliyorum. Çünkü
             //dependency injection uyguluyorum
+
+            //MediaTr kullanýmý için MediaTr konfigürasyonunu buraya ekliyoruz
+            services.AddMediatR(typeof(Startup));//Registration yapýyor.
+
             services.AddScoped<GetProductStoragerQueryHandler>();
             services.AddScoped<GetProductHumanResourcesByIDQueryHandler>();
             services.AddScoped<GetProductAccounterByIDQueryHandler>();

@@ -1,0 +1,38 @@
+﻿@model CreateUniversityCommand
+@{
+    Layout = null;
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<br />
+<div class="container">
+    <form method="post">
+      
+        <label>
+            Üniversite Adı
+        </label>
+        <input type="text" asp-for="Name" class="form-control" />
+        <br />
+        <label>
+            Üniversite Şehri
+        </label>
+        <input type="text" asp-for="City" class="form-control" />
+        <br />
+        <label>
+            Üniversite Nüfusu
+        </label>
+        <input type="text" asp-for="Population" class="form-control" />
+        <br />
+      
+        <label>
+            Üniversite Fakülte Sayısı
+        </label>
+        <input type="text" asp-for="FacultyCount" class="form-control" />
+        <br />
+
+        <button class="btn btn-danger">Üniversiteyi Ekle</button>
+
+
+    </form>
+
+</div>
+

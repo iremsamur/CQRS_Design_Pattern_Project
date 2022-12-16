@@ -13,6 +13,7 @@ namespace UpSchool_CQRS_DesignPatterns.DAL.Context
         }
         public DbSet<Product> Products { get; set; }
         public DbSet<Student> Students { get; set; }
+        public DbSet<University> Universities { get; set; }
 
 
     }

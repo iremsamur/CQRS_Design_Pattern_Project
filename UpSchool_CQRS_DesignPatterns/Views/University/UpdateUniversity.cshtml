@@ -1,0 +1,30 @@
+﻿@model GetUniversityByIDQueryResult
+@{
+    Layout = null;
+}
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<br />
+<div class="container">
+    <form method="post">
+        <input type="hidden" asp-for="UniversityID"/>
+        <label>
+            Üniversite Adı
+        </label>
+        <input  type="text" asp-for="Name" class="form-control"/>
+        <br />
+        <label>
+            Üniversite Şehri
+        </label>
+        <input type="text" asp-for="City" class="form-control" />
+        <br />
+        <label>
+            Üniversite Nüfusu
+        </label>
+        <input type="text" asp-for="Population" class="form-control" />
+        <br />
+        <button class="btn btn-danger">Güncelle</button>
+
+
+    </form>
+
+</div>
